@@ -34,7 +34,7 @@ const skillsData = [
   { name: 'Python', icon: faPython },
   { name: 'Docker', icon: faDocker },
   { name: 'AWS', icon: faAws },
-  { name: 'Node.js', icon: faNodeJs },
+  { name: 'Express.js', icon: faNodeJs },
   { name: 'Linux', icon: faLinux },
 ];
 
