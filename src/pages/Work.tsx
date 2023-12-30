@@ -3,7 +3,9 @@ import Navbar from "../Components/Navbar";
 import Projects from "../Components/Project";
 import Blogs from "../Components/Blogs";
 import Footer from "../Components/Footer";
-import Fade from 'react-reveal/Fade';
+import { Fade } from "react-awesome-reveal";
+
+
 
 const Work: React.FC = () => {
   return (

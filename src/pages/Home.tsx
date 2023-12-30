@@ -3,8 +3,8 @@ import Navbar from "../Components/Navbar";
 import Projects from "../Components/Project";
 import Blogs from "../Components/Blogs";
 import Footer from "../Components/Footer";
-import Fade from 'react-reveal/Fade';
 import Skills from '../Components/Skills';
+import { Fade } from "react-awesome-reveal";
 import Hero from '../Components/Hero';
 
 const Work: React.FC = () => {
@@ -12,10 +12,10 @@ const Work: React.FC = () => {
     <div className="">
       <Navbar />
       <Fade>
-        <Hero />
+        <Hero /> 
       </Fade>
       <Fade>
-        <Skills/>
+        <Skills />
       </Fade>
       <Fade>
         <Projects />
