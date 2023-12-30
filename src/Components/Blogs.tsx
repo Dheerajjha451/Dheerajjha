@@ -46,8 +46,6 @@ const blogPosts: BlogPost[] = [
 ];
 
 const BlogPostCard: React.FC<BlogPost> = ({ title, content, imageUrl, link, mediumLink }) => {
-   // eslint-disable-next-line
-  const [isHovered, setIsHovered] = React.useState(false);
 
   return (
     <motion.div
