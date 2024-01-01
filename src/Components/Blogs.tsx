@@ -5,6 +5,7 @@ import Img1 from '../assets/StudBud.png';
 import Img2 from '../assets/Prompt.jpg';
 import Img3 from '../assets/G.png';
 import Img4 from '../assets/robohand.jpg';
+import {Rotate} from 'react-awesome-reveal';
 
 interface BlogPost {
   title: string;
@@ -104,7 +105,9 @@ const Blogs: React.FC = () => {
       <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
         {blogPosts.map((post, index) => (
           <div key={index} className="p-3 sm:p-4">
+            <Rotate>
             <BlogPostCard {...post} />
+            </Rotate>
           </div>
         ))}
       </div>

@@ -6,6 +6,8 @@ import project3Image from '../assets/wordlist.png';
 import project4Image from '../assets/mtb.png';
 import project5Image from '../assets/2.jpeg';
 import project6Image from '../assets/news.png';
+import { Roll } from 'react-awesome-reveal';
+
 
 interface Project {
   title: string;
@@ -16,16 +18,16 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: 'StudBud',
-    description: 'StudBud is not just an app; it is your ultimate academic companion, dedicated to keeping students informed and engaged. In the whirlwind of academic life, it is easy to miss important opportunities and updates. That where StudBud steps in. Our mission is simple: to provide you with authentic, up-to-date information regarding academics and student life.',
-    githubLink: 'https://github.com/Dheerajjha451/StudBud',
-    image: project1Image,
-  },
-  {
     title: 'QR-Code Attendance System',
     description: 'The QR Code Attendance System is an efficient, fast and user-friendly tool for tracking attendance using QR codes. This system is designed to work seamlessly when devices are connected to the Same College Local Network. The faculty can display the QR Code using classroom projector so that present students can scan and mark their attendance.',
     githubLink: 'https://github.com/Dheerajjha451/QR-Attendance-System',
     image: project2Image,
+  },
+  {
+    title: 'StudBud',
+    description: 'StudBud is not just an app; it is your ultimate academic companion, dedicated to keeping students informed and engaged. In the whirlwind of academic life, it is easy to miss important opportunities and updates. That where StudBud steps in. Our mission is simple: to provide you with authentic, up-to-date information regarding academics and student life.',
+    githubLink: 'https://github.com/Dheerajjha451/StudBud',
+    image: project1Image,
   },
   {
     title: 'Wordlist Generator',
@@ -108,7 +110,9 @@ const Projects: React.FC = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
   {projects.map((project, index) => (
     <div key={index} className="p-3 md:p-6">
+      <Roll>
       <ProjectCard {...project} />
+      </Roll>
     </div>
   ))}
 </div>
