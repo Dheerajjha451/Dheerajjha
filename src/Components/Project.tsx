@@ -18,8 +18,8 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: 'QR-Code Attendance System',
-    description: 'The QR Code Attendance System is an efficient, fast and user-friendly tool for tracking attendance using QR codes. This system is designed to work seamlessly when devices are connected to the Same College Local Network. The faculty can display the QR Code using classroom projector so that present students can scan and mark their attendance.',
+    title: 'QR Attendance System',
+    description: 'The QR  Attendance System is an efficient, fast and user-friendly tool for tracking attendance using QR codes. This system is designed to work seamlessly when devices are connected to the Same College Local Network. The faculty can display the QR Code using classroom projector so that present students can scan and mark their attendance.',
     githubLink: 'https://github.com/Dheerajjha451/QR-Attendance-System',
     image: project2Image,
   },
@@ -38,7 +38,7 @@ const projects: Project[] = [
   {
     title: 'MTB',
     description: 'Explore a world of cinematic wonders, captivating TV shows, thought-provoking podcasts, and animated adventures with our handpicked selections. Whether you are in the mood for a gripping drama, a laugh-out-loud comedy, a mind-bending anime, or an engaging podcast, MediaMinds has you covered. Our expertly curated lists cater to diverse tastes.',
-    githubLink: 'https://github.com/Dheerajjha451/Recomendatrion-Website',
+    githubLink: 'https://github.com/Dheerajjha451/MTB',
     image: project4Image,
   },
   {
