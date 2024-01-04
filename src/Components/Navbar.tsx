@@ -10,7 +10,7 @@ const SVGIcon: React.FC<SVGIconProps> = ({ children }) => {
   return <motion.div whileHover={{ scale: 1.1 }}>{children}</motion.div>;
 };
 
-const Navigation: React.FC = () => {
+const Navbar: React.FC = () => {
   const [isSticky, setIsSticky] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -198,4 +198,4 @@ const Navigation: React.FC = () => {
   );
 };
 
-export default Navigation;
+export default Navbar;

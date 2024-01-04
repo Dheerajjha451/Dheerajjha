@@ -3,9 +3,9 @@ import { FaLinkedin, FaGithub, FaTwitter, FaFileDownload, FaMedium } from 'react
 import image from '../assets/Dheeraj.jpeg';
 import resumePDF from '../assets/Resume.pdf';
 
-const HeroSection: React.FC = () => {
+const Hero: React.FC = () => {
   return (
-    <section className="hero-section bg-gradient-to-r from-blue-500 to-blue-800 text-white p-6 lg:p-16 pt-16 lg:pt-24 flex flex-col lg:flex-row items-center justify-center h-screen relative overflow-hidden">
+    <section className="hero-section bg-gradient-to-r from-blue-400 to-blue-600 text-white p-6 lg:p-16 pt-16 lg:pt-24 flex flex-col lg:flex-row items-center justify-center h-screen relative overflow-hidden">
       <div className="lg:w-1/2 mr-4 xl:w-1/4 text-center lg:text-left mb-8 lg:mb-0 relative z-10">
         <h1 className="text-3xl lg:text-4xl xl:text-5xl font-bold mb-2 lg:mb-4">
           <span className="text-yellow-300">Hello,</span> I'm Dheeraj Jha
@@ -49,4 +49,4 @@ const HeroSection: React.FC = () => {
   );
 };
 
-export default HeroSection;
+export default Hero;

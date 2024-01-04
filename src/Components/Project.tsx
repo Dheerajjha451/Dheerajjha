@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaGithub } from 'react-icons/fa';
 import project1Image from '../assets/StudBud1.jpeg';
-import project2Image from '../assets/QRAttendance.jpeg';
+import project2Image from '../assets/QR.png';
 import project3Image from '../assets/wordlist.png';
 import project4Image from '../assets/mtb.png';
 import project5Image from '../assets/2.jpeg';

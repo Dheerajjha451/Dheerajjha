@@ -4,10 +4,11 @@ import Projects from "../Components/Project";
 import Blogs from "../Components/Blogs";
 import Footer from "../Components/Footer";
 import Skills from '../Components/Skills';
+import Services from '../Components/Services';
 import { Fade } from "react-awesome-reveal";
 import Hero from '../Components/Hero';
 
-const Work: React.FC = () => {
+const Home: React.FC = () => {
   return (
     <div className="">
       <Navbar />
@@ -16,6 +17,9 @@ const Work: React.FC = () => {
       </Fade>
       <Fade>
         <Skills />
+      </Fade>
+      <Fade>
+        <Services />
       </Fade>
       <Fade>
         <Projects />
@@ -28,4 +32,4 @@ const Work: React.FC = () => {
   );
 };
 
-export default Work;
+export default Home;
